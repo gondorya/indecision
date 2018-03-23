@@ -1,0 +1,9 @@
+.option {
+    text-align: left;
+    width: 100%;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba($brand-color, 0.2);
+}

@@ -1,0 +1,26 @@
+.cta {
+    background-color: $brand-color;
+    color: $text-reverse;
+    border: 1px solid $brand-color;
+    transition: ease-out 0.3s;
+    padding: 2rem;
+    cursor: pointer;
+    
+    &:hover {
+        background-color: transparent;
+        color: $text-color;
+    }
+    
+    &--large {
+        width: 100%;
+    }
+    
+    &--reverse {
+        background-color: darken($brand-color, 20%);
+    }
+    
+    &--small {
+        width: 100%;
+        max-width: 150px;
+    }
+}
